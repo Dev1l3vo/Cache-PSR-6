@@ -1,0 +1,9 @@
+{
+    "name": "cache.project",
+    "autoload": {
+        "psr-4": {
+            "CacheLibrary\\": "CacheLibrary/"
+        }
+    },
+    "require": {}
+}
