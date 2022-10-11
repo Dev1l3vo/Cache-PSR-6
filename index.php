@@ -15,11 +15,5 @@ $item->expiresAfter($interval);
 $pool->saveDeferred($item);
 $pool->saveDeferred($item2);
 
-var_dump($item->isHit());
-var_dump($pool->hasItem('vova'));
-
 $pool->commit();
-$pool->clear();
-
-var_dump($item2->isHit());
-var_dump($pool->hasItem('dead inside'));
+// $pool->clear();
